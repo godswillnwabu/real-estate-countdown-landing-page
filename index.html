@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glassful Estate</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/glassful.favicon.svg" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="customize.css">
+</head>
+
+<body>
+	<section id="banner" class="">
+		<div class="bg-overlay"></div>
+		<!-- FOR BANNER VIDEO -->
+		<!-- <video autoplay loop muted playsinline src="images/banner.mp4"></video> -->
+
+		<!-- HOUSE SLIDESHOW/CAROUSEL -->
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+			</div>
+		  
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/house slideshow/black-mountain-slate-home-header-image-min.jpg" alt="Los Angeles">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/pexels-max-rahubovskiy-7031408-min.jpg" alt="Chicago">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/pexels-max-rahubovskiy-7031412-min.jpg" alt="New York">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/R-_1_-min.jpg" alt="Chicago">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/R-_3_-min.jpg" alt="Chicago">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/R-_4_-min.jpg" alt="Chicago">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/house slideshow/R-min.jpg" alt="Chicago">
+				</div>
+			</div>
+		  
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+			
+		</div>
+
+		<div class="inner">
+			<div class="brand-caption">
+				<h1 class="text-uppercase display-5">Glassful<span> Estates</span></h1> 
+				<p class="text-uppercase mb-5 west-africa">a perfect paradise for the rich and famous</p>
+			</div>
+
+			<div class="countdown-block">
+				<p class="text-uppercase">our website is launching soon</p>
+				
+				<div class="d-inline-flex inner-countdown">
+					<span class="d-flex flex-column pe-5 countdown">
+						<span id="day" class="zeros">0</span>
+						<span class="time">Days</span>
+					</span>
+					<span class="d-flex flex-column pe-5 countdown">
+						<span id="hour" class="zeros">0</span>
+						<span class="time">Hours</span>
+					</span>
+					<span class="d-flex flex-column pe-5 countdown">
+						<span id="min" class="zeros">0</span>
+						<span class="time">Minutes</span>
+					</span>
+					<span class="d-flex flex-column countdown">
+						<span id="sec" class="zeros">0</span>
+						<span class="time">Seconds</span>
+					<span>
+				</div>
+			</div>
+		</div>
+
+		<footer class="socialConnect d-flex mt-5" style="position: absolute; bottom: 20px; left: 3%; z-index: 100;">
+			<a href="#" class="pe-3"><img class="connectFb" src="./images/icons8-facebook.svg" alt="facebook" width="25px" height="25px"></a>
+			<a href="#" class="pe-3"><img class="connectTwitter" src="./images/icons8-twitter.svg" alt="twitter" width="25px" height="25px"></a>
+			<a href="#" class="pe-3"><img class="connectIn" src="./images/icons8-linkedin.svg" alt="linkedin" width="25px" height="25px"></a>
+		</footer>
+
+		<div class="hamburgerPanel" id="hamburgerPanel">
+			<nav>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</nav>
+		</div>
+
+		<div class="navigationWrapper" id="navigationWrapper">
+			
+			<div class="navigationClosure">
+				<div class="Closure"></div>
+			</div>
+
+			<ul class="nav nav-pills mt-2 container">
+				<li class="nav-item">
+					<a class="nav-link active text-white" data-bs-toggle="pill" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" data-bs-toggle="pill" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" data-bs-toggle="pill" href="#subscribe">Subscribe</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" data-bs-toggle="pill" href="#contact">Contact</a>
+				</li>
+			</ul>
+
+			<div class="tab-content container">
+				<div class="tab-pane active" id="about">
+					<h2 class="my-5" style="font-family: 'Anton', sans-serif; letter-spacing: 2px;">ABOUT US</h2>
+					<div class="imgWrapper">
+						<img class="img-fluid" src="./images/house slideshow/pexels-pixabay-269077-min.jpg" alt="our headquarters">
+					</div><br>
+					<p  class="my-3" style="font-family: 'Oswald', sans-serif; font-weight: 300;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quis expedita quisquam esse repellat impedit veniam, similique provident delectus amet tenetur laudantium ab error eos! Nulla sequi tenetur est officia.
+					Earum harum sequi molestiae fugit recusandae fuga impedit, id illo esse minima ut unde exercitationem. Nobis reiciendis repellendus eum autem voluptas, asperiores, placeat accusantium ex modi, explicabo dicta provident vel. <br><br>
+					Fugiat assumenda ad debitis exercitationem. Reiciendis exercitationem adipisci provident dicta illo error iure, omnis, corrupti voluptates corporis sed, harum eum esse molestias fugit asperiores illum dolores officiis debitis? Omnis, veniam.
+					Doloribus tempore corrupti nulla dolor voluptatum quibusdam autem! Molestiae commodi sapiente illum ab optio! Adipisci modi molestiae, molestias consequuntur reiciendis reprehenderit dolores nemo, delectus nulla, ipsam dolore repellendus eveniet dicta! <br><br>
+					Quasi consectetur nobis sapiente nisi corporis odit perferendis quaerat alias! Sit quas doloribus dolores illum eligendi numquam accusantium eaque mollitia incidunt reprehenderit explicabo odit molestiae, harum, ipsa tempore nisi corporis?
+					Quasi consectetur nobis sapiente nisi corporis odit perferendis quaerat alias! Sit quas doloribus dolores illum eligendi numquam accusantium eaque mollitia incidunt reprehenderit explicabo odit molestiae, harum, ipsa tempore nisi corporis?</p>
+				</div>
+
+				<div class="tab-pane" id="projects">
+					<h2 class="my-5" style="font-family: 'Anton', sans-serif; letter-spacing: 2px;">PROJECTS</h2>
+					<div class="imgWrapper">
+						<img class="img-fluid" src="./images/house slideshow/pexels-pixabay-534220-min.jpg" alt="construction site">
+					</div><br>
+					<p style="font-family: 'Oswald', sans-serif; font-weight: 300;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis asperiores velit rerum voluptates doloremque voluptatem, sint libero. Non saepe quos fuga quis, reprehenderit reiciendis impedit eveniet culpa beatae placeat mollitia? <br><br>
+					Molestias sapiente harum iste quidem repudiandae iusto atque iure. Quod, ad fugiat reiciendis laboriosam aliquid numquam ex obcaecati. Distinctio impedit rerum cumque enim aliquam excepturi, fuga officia placeat ipsam modi!</p>
+				</div>
+				
+				<div class="tab-pane" id="subscribe">
+					<h2 class="my-5" style="font-family: 'Anton', sans-serif; letter-spacing: 2px;">SUBSCRIBE</h2>
+					<p  class="mb-4" style="font-family: 'Oswald', sans-serif; font-weight: 300;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt a ipsum necessitatibus sint nesciunt rerum explicabo nemo dignissimos, laborum consequatur! Porro pariatur, excepturi omnis eum ex maxime voluptates sapiente saepe?</p>
+					<form action="">
+						<div class="row">
+							<div class="col">
+								<input type="email" class="form-control-plaintext border rounded-0 ps-2 contactInfo" id="email" placeholder="Your Email Address">
+							</div>
+							<div class="col">
+								<button type="submit" class="btn border rounded-0 buttonEmail">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="tab-pane" id="contact">
+					<h2 class="my-5" style="font-family: 'Anton', sans-serif; letter-spacing: 2px;">CONTACT</h2>
+					<div class="d-flex flex-column mb-5">
+						<p class="contactInfo"><i class="fa-solid fa-house fa- pe-3" style="color: #ce953f;"></i>No 37 Faulks Road Aba Nigeria</p>
+						<p class="contactInfo"><i class="fa-solid fa-phone pe-3" style="color: #ce953f;"></i>ourcompanyaddresss@gmail.com</p>
+						<p class="contactInfo"><i class="fa-solid fa-envelope  pe-3" style="color: #ce953f;"></i>+(234) 0000000000</p>
+					</div>
+					<p class="text-uppercase getInTouch mb-3">get in touch</p>
+					<form action="">
+						<input type="name" class="form-control-plaintext border rounded-0 p-2 contactInfo" id="name" placeholder="Name">
+						<input type="email" class="form-control-plaintext border border-top-0 rounded-0 p-2 contactInfo" id="email" placeholder="Email">
+						<div style="position: relative;">
+							<textarea class="form-control-plaintext border border-top-0 rounded-0 p-2 contactInfo" rows="5" id="message" placeholder="Message"></textarea>
+							<button type="submit" class="btn border rounded-0 buttonText">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

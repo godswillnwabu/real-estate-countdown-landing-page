@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Tangsel Display';
+    src: url('TangselDisplay.woff2') format('woff2'),
+        url('TangselDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gold West';
+    src: url('GoldWestRegular.woff2') format('woff2'),
+        url('GoldWestRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Backeth';
+    src: url('Backeth-Regular.woff2') format('woff2'),
+        url('Backeth-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
