@@ -163,6 +163,13 @@ p.west-africa {
     z-index: 50;
     overflow-y: scroll;
 }
+.navigationWrapper::-webkit-scrollbar {
+    display: none;
+}
+.navigationWrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 .navigationWrapper.active {
     top: 0;
 }
@@ -172,16 +179,10 @@ p.west-africa {
 }
 .tab-content  {
     position: relative;
-    width: -moz-fit-content;
     width: auto;
-    height: 500px;
+    height: 450px;
     overflow-y: scroll;
 }
-/* @media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
-    .tab-content {
-        height: 750px;
-    }
-} */
 .navigationClosure {
     position: absolute;
     right: 100px;
