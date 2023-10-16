@@ -1,5 +1,5 @@
 # real-estate-countdown-landing-page
-This is a Landing Page for a Real Estate Investment; Live Site URL: [Visit the page](https://godswillnwabu.github.io/landingpage-cloudbased-platform/)
+This is a Landing Page for a Real Estate Investment. [Visit the page](https://godswillnwabu.github.io/real-estate-countdown-landing-page/)
 
 ## Screenshot
 ![estate](https://github.com/godswillnwabu/real-estate-countdown-landing-page/assets/112035653/151faf5f-6465-4288-96f2-79c28b9f4160)
