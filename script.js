@@ -15,15 +15,14 @@ function closeMenu() {
 }
 
 //adding more time to the countdown when you reload the page
-// let tempDate = new Date();
-// let tempYear = tempDate.getFullYear();
-// let tempMonth = tempDate.getMonth();
-// let tempDay = tempDate.getDate();
+let tempDate = new Date();
+let tempYear = tempDate.getFullYear();
+let tempMonth = tempDate.getMonth();
+let tempDay = tempDate.getDate();
 
-
-// const items = document.querySelectorAll(".countdown span");
-const futureDate = new Date(2023, 7, 9, 16, 59, 0);
-//const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 59, 0); [for the more time]
+const items = document.querySelectorAll(".countdown .zeros");
+// const futureDate = new Date(2023, 7, 9, 16, 59, 0);
+const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 59, 0);
 
 //future time in ms
 const futureTime = futureDate.getTime();
@@ -66,11 +65,11 @@ items.forEach(function (item, index) {
     item.innerHTML = format(values[index]);
 });
 
-if (t < 0) {
-    clearInterval(countdown);
-    //displaying the expired session
-   // Deadline.innerHTML = `<h2 class="expired"> This session has expired <h2>`;
-}
+// if (t < 0) {
+//     clearInterval(countdown);
+//     //displaying the expired session
+//    // Deadline.innerHTML = `<h2 class="expired"> This session has expired <h2>`;
+// }
 
 //countdown
 countdown = setInterval(getRemainingTime, 1000);

@@ -27,16 +27,6 @@ h1 > span {
     font-family: 'Tangsel Display', Arial;
     color: #ce953f;
 }
-/* #banner >  video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    z-index: -3;
-    display: none;
-} */
 #banner {
     position: relative;
     width: inherit;
