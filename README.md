@@ -2,8 +2,10 @@
 This is a Landing Page for a Real Estate Investment; Live Site URL: [Visit the page](https://godswillnwabu.github.io/landingpage-cloudbased-platform/)
 
 ## Screenshot
-![HomePage](https://github.com/godswillnwabu/landingpage-cloudbased-platform/assets/112035653/42dab4df-bf28-497d-91ce-191ae5c97fac)
-![Sign-in/Sign-up](https://github.com/godswillnwabu/landingpage-cloudbased-platform/assets/112035653/e1f10b89-e0a0-456b-b109-88e07fb2ada4)
+![estate](https://github.com/godswillnwabu/real-estate-countdown-landing-page/assets/112035653/151faf5f-6465-4288-96f2-79c28b9f4160)
+![estate-1](https://github.com/godswillnwabu/real-estate-countdown-landing-page/assets/112035653/278ce15b-458e-4df0-8b44-0d62c704ebdf)
+![estate-2](https://github.com/godswillnwabu/real-estate-countdown-landing-page/assets/112035653/74c8ff84-9913-4e8d-9f44-402ba1b41902)
+![estate-3](https://github.com/godswillnwabu/real-estate-countdown-landing-page/assets/112035653/1b9e0e06-e016-44bd-bd97-5d284afb3306)
 
 ## Technologies 
 Project is created with: 
